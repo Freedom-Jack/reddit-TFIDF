@@ -1,5 +1,6 @@
 # reddit-TFIDF documentation
 A big data analysis practice for reddit comments, using tf-idf statistic metric
+* Contributors: Jack, Ken, Ibrahim
 
 ## Sections
 1. Source
