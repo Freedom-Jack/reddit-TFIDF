@@ -4,8 +4,8 @@ A big data analysis practice for reddit comments, using tf-idf statistic metric
 ## Sections
 1. Source
       * [Pushshift API](#pushshift-api)
-      * Reddit API
-2. Processing layer
+      * [Reddit API](#reddit-api)
+2. Processing
       * Batch
       * Streaming
       
@@ -14,5 +14,9 @@ A big data analysis practice for reddit comments, using tf-idf statistic metric
 - The pushshift.io Reddit API was designed and created by the /r/datasets mod team to help provide enhanced functionality and search capabilities for searching Reddit comments and submissions. The project lead, /u/stuck_in_the_matrix, is the maintainer of the Reddit comment and submissions archives located at https://files.pushshift.io.
 ### Reddit API
 - The official JSON API from reddit: https://www.reddit.com/dev/api/
+
+## Processing
+### Batch layer
+### Streaming layer
     
 updated: 2019-11-12
