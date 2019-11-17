@@ -20,4 +20,4 @@ A big data analysis practice for reddit comments, using tf-idf statistic metric
 ### Batch layer
 ### Streaming layer
     
-updated: 2019-11-14
+updated: 2019-11-17
