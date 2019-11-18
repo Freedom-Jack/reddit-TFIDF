@@ -7,7 +7,7 @@ A big data analysis practice for reddit comments, using tf-idf statistic metric
       * [Pushshift API](#pushshift-api)
       * [Reddit API](#reddit-api)
 2. Processing
-      * Batch
+      * [Batch](#batch-layer)
       * Streaming
       
 ## Source
@@ -18,6 +18,7 @@ A big data analysis practice for reddit comments, using tf-idf statistic metric
 
 ## Processing
 ### Batch layer
+- MapReduce
 ### Streaming layer
     
 updated: 2019-11-17
