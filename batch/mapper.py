@@ -15,7 +15,7 @@ parser.add_argument("source_path", help="The path of the json data source file")
 sourcePath = parser.parse_args().source_path
 
 
-# Decode method for stacked json (Copied)
+# Decode method for stacked json
 def decode_stacked(document, pos=0, decoder=JSONDecoder()):
     while True:
         match = re.compile(r'[^\s]').search(document, pos)
@@ -26,8 +26,7 @@ def decode_stacked(document, pos=0, decoder=JSONDecoder()):
         try:
             obj, pos = decoder.raw_decode(document, pos)
         except JSONDecodeError:
-            # do something sensible if there's some error
-            raise
+            raise Exception("Decoder exception: can not decode stacked json input")
         yield obj
 
 
