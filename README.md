@@ -21,4 +21,4 @@ A big data analysis practice for reddit comments, using tf-idf statistic metric
 - MapReduce
 ### Streaming layer
     
-updated: 2019-11-17
+updated: 2019-11-19

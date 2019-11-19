@@ -47,6 +47,6 @@ with open(sourcePath, 'r') as input_file:
 
         # Print out tf, df and n for MapReduce
         for aggregate_word in words_dict:
-            print(word.lower() + " tr\t" + str(words_dict[aggregate_word]))
+            print(word.lower() + " tf\t" + str(words_dict[aggregate_word]))
             print(word.lower() + " df\t1")
             print(word.lower() + "\t1")
