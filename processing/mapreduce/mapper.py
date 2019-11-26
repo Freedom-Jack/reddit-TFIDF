@@ -40,7 +40,7 @@ for row in sys.stdin:
     for word in words:
         words_dict[word] = words_dict[word] + 1
 
-    # Print out tf, df and n for MapReduce
+    # Print out tf, df and n for mapreduce
     for aggregate_word in words_dict:
         print(sub_reddit + " " + word.lower() + " tf\t" + str(words_dict[aggregate_word]))
         print(sub_reddit + " " + word.lower() + " df\t1")
