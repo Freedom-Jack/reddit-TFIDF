@@ -3,7 +3,7 @@
 import sys
 import re
 
-previous = None
+previous_key = None
 termSum = 0
 
 for line in sys.stdin:
@@ -11,16 +11,16 @@ for line in sys.stdin:
     key, value = re.split(r'\t', line)
 
     # Not the same as previous, means new key
-    if key != previous:
+    if key != previous_key:
         # If it is not the first element, print and reset
-        if previous is not None:
-            print(previous + '\t' + str(termSum))
+        if previous_key is not None:
+            print(previous_key + '\t' + str(termSum))
 
-        previous = key
+        previous_key = key
         termSum = 0
 
     # Else, sum up the values of the same key
     termSum = termSum + int(value)
 
 # Print the last element in the list
-print(previous + '\t' + str(termSum))
+print(previous_key + '\t' + str(termSum))

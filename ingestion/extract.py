@@ -22,3 +22,4 @@ with open(sourcePath, 'r') as sourceFile:
             data["subreddit"] = raw["subreddit"]
 
             json.dump(data, outputFile)
+            outputFile.write("\n")
