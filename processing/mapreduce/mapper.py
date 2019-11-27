@@ -42,6 +42,6 @@ for row in sys.stdin:
 
     # Print out tf, df and n for mapreduce
     for aggregate_word in words_dict:
-        print(sub_reddit + " " + word.lower() + " tf\t" + str(words_dict[aggregate_word]))
-        print(sub_reddit + " " + word.lower() + " df\t1")
+        print(sub_reddit + " " + aggregate_word.lower() + " tf\t" + str(words_dict[aggregate_word]))
+        print(sub_reddit + " " + aggregate_word.lower() + " df\t1")
         print(sub_reddit + "\t1")
