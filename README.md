@@ -19,6 +19,7 @@ A big data analysis practice for reddit comments, using tf-idf statistic metric
 ## Processing
 ### Batch layer
 - MapReduce
+- Spark
 ### Streaming layer
     
-updated: 2019-11-19
+updated: 2019-11-26
