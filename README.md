@@ -1,6 +1,5 @@
-# reddit-TFIDF documentation
+# reddit-tfidf documentation
 A big data analysis practice for reddit comments, using tf-idf statistic metric
-* Contributors: Jack, Ken, Ibrahim
 
 ## Sections
 1. Source
@@ -8,7 +7,6 @@ A big data analysis practice for reddit comments, using tf-idf statistic metric
       * [Reddit API](#reddit-api)
 2. Processing
       * [Batch](#batch-layer)
-      * Streaming
       
 ## Source
 ### PushShift API
@@ -20,6 +18,7 @@ A big data analysis practice for reddit comments, using tf-idf statistic metric
 ### Batch layer
 - MapReduce
 - Spark
-### Streaming layer
-    
-updated: 2019-11-26
+
+---
+Contributors: Qijin(Jack) Xu, Ken Tjhia, Ibrahim Suedan
+Lastly updated: 2019-12-25
