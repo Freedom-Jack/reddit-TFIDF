@@ -20,5 +20,5 @@ A big data analysis practice for reddit comments, using tf-idf statistic metric.
 - Spark
 
 ---
-Contributors: Jack Xu, Ken Tjhia, Ibrahim Suedan\
+Contributors: Qijin(Jack) Xu, Ken Tjhia, Ibrahim Suedan\
 Lastly updated: 2019-12-26
